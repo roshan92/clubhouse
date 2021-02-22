@@ -1,6 +1,6 @@
 <html>
   <head>
-    <title>Daily Prebuilt UI demo</title>
+    <title>Singapore Comedy Clubhouse</title>
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <script src="https://unpkg.com/@daily-co/daily-js"></script>
     <link rel="icon" type="image/png" href="./assets/favicon.png" />
@@ -12,21 +12,16 @@
     <div class="container">
       <header class="header">
         <img
-          src="assets/logo@2x.png"
+          src="assets/roshan_logo.jpg"
           class="logo"
+          style="filter: grayscale(100%)"
           alt="Daily logo reads Daily"
         />
-        <div>
-          <a href="https://github.com/daily-demos"
-            ><img src="assets/github@icons8.png" alt="GitHub logo Octocat"
-          /></a>
-        </div>
       </header>
-      <h1 class="title">Daily Prebuilt UI demo</h1>
+      <h1 class="title">Roshan Comedy Clubhouse</h1>
       <div class="instructions">
         <p id="instruction-text">
-          To get started, enter an existing room URL or create a temporary demo
-          room
+          To get started, enter an existing room URL or create a temporary room
         </p>
         <div class="input-and-buttons">
           <label for="room-url"></label>
@@ -38,7 +33,7 @@
             pattern="^(https:\/\/)?[a-z0-9]+([\-\.]{1}[a-z0-9]+)*\.(daily\.co\/)([a-z0-9]+)+$"
           />
           <button class="button" id="create-button" onclick="createDemoRoom()">
-            Create demo room
+            Create room
           </button>
           <button class="join-call button" onclick="joinCall()">
             Join call
